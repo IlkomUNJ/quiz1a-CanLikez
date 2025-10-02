@@ -289,7 +289,7 @@ int main() {
                                         break;
                                     case 4: {
                                         cout << "Create new buyer/seller/Bank account selected." << endl;
-                                        cout << "Select Account Type:\n1. Buyer\n2. Seller"    
+                                        cout << "Select Account Type:\n1. Buyer\n2. Seller"   << endl; 
                                         break;
                                     }
                                     case 5:
