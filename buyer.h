@@ -11,7 +11,7 @@ class Buyer {
 private:
     int id;
     string name;
-    BankCustomer &account; // Association with BankCustomer
+    BankCustomer &account;  // Association with BankCustomer
 
 public:
     Buyer(int id, const string& name, BankCustomer &account0)

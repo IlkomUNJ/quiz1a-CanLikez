@@ -49,6 +49,6 @@ public:
             }
         }
     }
-
+    
     // Add seller-specific members here
 };
