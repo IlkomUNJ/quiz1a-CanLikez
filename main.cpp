@@ -244,7 +244,6 @@ int main() {
                                         break;
                                     case 3: {
                                         cout << "Seek certain buyer/seller based on Name / account Id / address / phone number selected." << endl;
-                                        // Implement seek certain buyer/seller features here
                                         cout << "Search in :\n1. Buyers\n2. Sellers\n" << endl;
                                         int searchType;
                                         cin >> searchType;
@@ -288,10 +287,11 @@ int main() {
                                         }
                                     }
                                         break;
-                                    case 4:
+                                    case 4: {
                                         cout << "Create new buyer/seller/Bank account selected." << endl;
-                                        // Implement create new buyer/seller/bank account features here
+                                        cout << "Select Account Type:\n1. Buyer\n2. Seller"    
                                         break;
+                                    }
                                     case 5:
                                         cout << "Remove buyer/seller based on ID (all related info will be deleted) selected." << endl;
                                         // Implement remove buyer/seller based on ID features here
